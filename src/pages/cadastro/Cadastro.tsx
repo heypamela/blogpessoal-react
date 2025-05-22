@@ -1,10 +1,10 @@
-import { useNavigate } from 'react-router-dom'
-import { RotatingLines } from 'react-loader-spinner'
-import { type ChangeEvent, type FormEvent, useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom';
+import { RotatingLines } from 'react-loader-spinner';
+import { type ChangeEvent, type FormEvent, useEffect, useState } from 'react';
 
-import './Cadastro.css'
-import type Usuario from '../../models/Usuario'
-import { cadastrarUsuario } from '../../services/Service'
+import './Cadastro.css';
+import type Usuario from '../../models/Usuario';
+import { cadastrarUsuario } from '../../services/Service';
 
 function Cadastro() {
     const navigate = useNavigate()
@@ -147,7 +147,7 @@ function Cadastro() {
                     <div className="flex justify-around w-full gap-8">
                         <button
                             type='reset'
-                            className='rounded text-white bg-red-400
+                            className='rounded text-black bg-red-400
                                         hover:bg-red-700 w-1/2 py-2'
                                         onClick={retornar}
                         >
@@ -156,8 +156,8 @@ function Cadastro() {
 
                         <button
                             type='submit'
-                            className='rounded text-white bg-indigo-400  
-                                        hover:bg-indigo-900 w-1/2 py-2 flex justify-center'
+                            className='rounded text-black bg-pink-300
+                                        hover:bg-pink-700 w-1/2 py-2 flex justify-center'
                         >
                             {isLoading ? < RotatingLines
                                 strokeColor="white"
