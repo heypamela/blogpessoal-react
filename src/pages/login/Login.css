@@ -1,0 +1,8 @@
+.fundoLogin {
+    background-image: url("https://images.pexels.com/photos/6168064/pexels-photo-6168064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
