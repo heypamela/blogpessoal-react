@@ -56,6 +56,7 @@ function Cadastro() {
                     foto: usuario.foto
                 }, setUsuario);
                 alert('Usuário cadastrado com sucesso!');
+                
             } catch (error) {
                 alert('Erro ao cadastrar o usuário!')
             }

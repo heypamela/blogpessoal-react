@@ -1,8 +1,3 @@
-// import { useContext } from 'react';
-
-// import { Link } from 'react-router-dom';
-// import { UserContext } from '../../contexts/UserContextProps';
-
 function Home() {
     return (
         <div className="bg-pink-500 flex justify-center">
