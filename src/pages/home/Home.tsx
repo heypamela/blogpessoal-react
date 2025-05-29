@@ -13,7 +13,7 @@ function Home() {
                         </h2>
                     
                         <p className='text-xl'>
-                            Expresse aqui seus pensamentos e opniões
+                            Expresse aqui seus pensamentos e opiniões
                         </p>
 
                         <div className="flex justify-around gap-4">
