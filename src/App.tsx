@@ -1,7 +1,10 @@
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Home from './pages/home/Home';
 import Login from './pages/login/Login';
+import Perfil from './pages/perfil/Perfil';
 import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
 import Cadastro from './pages/cadastro/Cadastro';
@@ -17,6 +20,7 @@ function App() {
   return (
     <>
       <AuthProvider>
+        < ToastContainer />
         <BrowserRouter>
           < Navbar />
 
@@ -34,6 +38,7 @@ function App() {
               < Route path="/cadastrarpostagem" element={< FormPostagem />} />
               < Route path="/editarpostagem/:id" element={< FormPostagem />} />
               < Route path="/deletarpostagem/:id" element={< DeletarPostagem />} />
+              < Route path="/perfil" element={< Perfil />} />
             </Routes>
           </div>
 
